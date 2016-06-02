@@ -12,8 +12,20 @@
 */
 
 Route::get('/', function () {
+	if(Auth::check()){
+		return view('app');
+	}
     return view('welcome');
 });
+
+Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function(){
+
+	Route::get('ver-usuarios', ['as' => 'showUser', 'uses' => 'AdminController@showUser']);
+	Route::get('usuario/{id}', ['as' => 'usuario', 'uses' => 'AdminController@editUser']);
+});
+
+Route::controller('buscar', 'SearchController');
+
 
 // Authentication routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');
