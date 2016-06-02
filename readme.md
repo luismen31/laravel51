@@ -15,7 +15,7 @@ Base para Desarrollar Laravel en su versión 5.1, Documentación [Laravel 5.1](h
 - php artisan key:generate
 
 ### Version
-5.1
+5.1.*
 
 ### Tecnologías
 
