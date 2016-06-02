@@ -8,7 +8,7 @@ Base para Desarrollar Laravel en su versión 5.1, Documentación [Laravel 5.1](h
 
 # Instalacion
 
-- git clone https://github.com/luismen31/laravel51.git <tu_nombre_para_el_repo_local>
+- git clone https://github.com/luismen31/laravel51.git (tu_nombre_para_el_repo_local)
 - Configurar el archivo .env a partir del .env.example, para la base de datos.
 - Configurar dentro de .env los parametros para el MAIL.
 - composer install
