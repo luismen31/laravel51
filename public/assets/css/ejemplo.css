@@ -1,0 +1,74 @@
+/* NAVEGACION */
+.menu{
+	background-color: #195025;
+	border-color: #195025;
+	border-radius: 0;		
+}
+
+.menu .navbar-brand{
+	color: #fff;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.menu .navbar-brand:hover, 
+.menu .navbar-brand:focus{
+	color: #ccc;
+}
+
+.menu .navbar-nav > li > a{
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.menu .navbar-nav > li > a:hover, 
+.menu .navbar-nav > li > a:focus{
+	color: #ccc;
+}
+
+.menu .navbar-nav > .open > a, 
+.menu .navbar-nav > .open > a:hover, 
+.menu .navbar-nav > .open > a:focus{
+	min-height: 60px;
+}
+
+.menu .navbar-nav > .open > a, 
+.menu .navbar-nav > .open > a:hover, 
+.menu .navbar-nav > .open > a:focus{
+	background-color: #376F38;
+	color: #fff;
+}
+/*FIN DE NAVEGACION*/
+
+/* PANEL */
+.mipanel{
+	border-radius: 0px;
+}
+
+.mipanel-orange{
+	border-color: #D47531;
+}
+
+.mipanel-orange > .panel-heading{
+	background-color: #D47531;
+	border-color: #D47531;
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 12px 15px;
+    font-size: 15px;
+}
+
+.mipanel-green{
+	border-color: #D47531;
+}
+
+.mipanel-green > .panel-heading{
+	background-color: #D47531;
+	border-color: #D47531;
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 12px 15px;
+    font-size: 15px;
+}

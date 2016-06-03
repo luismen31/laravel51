@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
 	if(Auth::check()){
-		return view('app');
+		return view('inicio');
 	}
     return view('welcome');
 });
